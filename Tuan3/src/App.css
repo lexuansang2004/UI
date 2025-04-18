@@ -1,0 +1,100 @@
+.nav .search-bar{
+  border: solid 1px rgb(156, 237, 243);
+}
+
+nav {
+  border-bottom: solid 3px rgb(0, 65, 51);
+}
+
+.main {
+  justify-content: space-around;
+}
+
+.header-sidebar {
+  display: flex;
+  img {
+    cursor: pointer;
+  }
+}
+
+.sidebar {
+  padding: 30px;
+  .filter-group {
+    margin-top: 30px;
+    margin-bottom: 30px; 
+  }
+  .sidebar-fill {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+  }
+
+  .form-check {
+    margin-bottom: 15px; 
+  }
+}
+
+.sidebar .sidebar-fill {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  .form-check{
+    .form-check-input {
+      border: solid 1px rgb(192, 190, 190);
+      cursor: pointer;
+    }
+    .form-check-input:checked {
+      background-color: rgb(240, 117, 137); 
+      border-color: pink;
+    }
+  }
+}
+
+.range-values {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 15px; /* Thêm padding để tạo khoảng cách */
+  font-size: 14px;
+}
+
+.rating-item {
+  margin: 20px;
+    .form-check-input {
+      border: solid 1px rgb(192, 190, 190);
+      cursor: pointer;
+    }
+    .form-check-input:checked {
+      background-color: rgb(240, 117, 137); 
+      border-color: pink;
+    }
+}
+
+.apply-btn {
+  margin-top: 10px; /* Điều chỉnh khoảng cách */
+  width: 300px;
+  border-radius: 9px;
+  background-color: rgb(240, 117, 137);
+  color: white;
+  border-color: pink;
+}
+
+.no-results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Để căn giữa theo chiều dọc nếu cần */
+  height: 50%; /* Hoặc đặt theo kích thước phù hợp */
+  text-align: center;
+}
+
+.tags {
+  .tag {
+    padding: 30px;
+    text-decoration-line: none;
+  }
+}
+
+.input-email {
+  display: flex;
+  gap: 10px
+}
